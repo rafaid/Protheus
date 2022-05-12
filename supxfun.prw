@@ -714,7 +714,7 @@ STATIC FUNCTION MONIMAIL()
 
     
 
-    DEFINE DIALOG oDlg TITLE "Monitor dede envio de Email" FROM 180,180 TO 590,700 PIXEL	    
+    DEFINE DIALOG oDlg TITLE "Monitor de envio de Email" FROM 180,180 TO 590,700 PIXEL	    
 
     oBrowse := TWBrowse():New( 01 , 01, 260,184,,{'STATUS','EMPRESA','FILIAL','DATA','DEST','ASSUNTO'},aColSizes,;                              
     oDlg,,,,,{||},,,,,,,.F.,,.T.,,.F.,,, )
